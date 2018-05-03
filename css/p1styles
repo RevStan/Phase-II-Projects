@@ -13,6 +13,7 @@ p {color: red;
       align-content: space-between;
       flex-direction: row;
       width: 100%;
+      padding: 10px 110px 20px;
 }
 
 .border {
