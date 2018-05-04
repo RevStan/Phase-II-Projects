@@ -39,7 +39,8 @@
     font-size: 30px;
 }
 
-
+/* This section deals with the main content of 
+   the page */
 
 .main-pic-box {
     display: flex;
@@ -62,11 +63,16 @@
 .feature-p {
     color: red;
     font-family: ar delaney;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .figcaption {
     text-align: center;
+}
+
+.figcap-font {
+  font-size: 20px;
+  text-align: center;
 }
 
 .figure {
@@ -92,4 +98,3 @@
 
 .li-size {
   font-size: 25px;
-}
