@@ -1,4 +1,5 @@
 /* CSS for Phase II Project 1 Portfolio Rev Stan Cline */
+
 .border {
     border-bottom: 3px solid #7d97ad;
 }
@@ -6,30 +7,39 @@
 * {
  box-sizing: border-box;
 }
-        
+ 
+/*  This section is dealing with the header on the page. */
+
 .header-box {
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-end;
-    padding: 15px
-}
+    align-items: flex-start;
+    }
         
 .header-box-name {
     display: flex;
     flex-flow: column nowrap;
-    align-items: stretch;
     margin-right: auto;
     position: relative;
     width: 100%;
-    padding: 20px,0px,10px,10px;
 } 
 
 .hdr-col {
-    width: 95%;
+    width: 100%;
     text-align: right;
     color: #90D;
     font-family: old english text mt;
 }
+
+.hdr-col2 {
+    width: 100%;
+    text-align: right;
+    color: #90D;
+    font-family: old english text mt;
+    font-size: 30px;
+}
+
+
 
 .main-pic-box {
     display: flex;
@@ -38,7 +48,7 @@
     margin-right: auto;
     position: relative;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
 }
  
 .feature-box {
@@ -55,11 +65,31 @@
     font-size: 30px;
 }
 
-figcaption {
+.figcaption {
     text-align: center;
 }
 
-figure {
+.figure {
     margin-top: 0;
     padding-top: 0;
+}
+
+/* This code handles the general font size on text paragraphs */
+
+.p-ftsz {
+  font-size: 20px;
+}
+
+/* Following code is for the demonstration in the unordered list of various choices for a web page.
+*/
+.li-font {
+  font-family: brush script mt;
+}
+
+.li-color {
+  color: red;
+}
+
+.li-size {
+  font-size: 25px;
 }
