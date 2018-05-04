@@ -1,21 +1,4 @@
-body {background-color: lightblue;}
-
-h1 {color: yellow;}
-h2 {color: white;}
-h3 {color: orange;}
-
-p {color: red;
-   font-family: }
-
-.feature-box {
-      display: flex;
-      flex-wrap: wrap;
-      align-content: space-between;
-      flex-direction: row;
-      width: 100%;
-      padding: 10px 110px 20px;
-}
-
+/* CSS for Phase II Project 1 Portfolio Rev Stan Cline */
 .border {
     border-bottom: 3px solid #7d97ad;
 }
@@ -28,6 +11,7 @@ p {color: red;
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-end;
+    padding: 15px
 }
         
 .header-box-name {
@@ -36,8 +20,16 @@ p {color: red;
     align-items: stretch;
     margin-right: auto;
     position: relative;
-    width: 100%; 
+    width: 100%;
+    padding: 20px,0px,10px,10px;
 } 
+
+.hdr-col {
+    width: 95%;
+    text-align: right;
+    color: #90D;
+    font-family: old english text mt;
+}
 
 .main-pic-box {
     display: flex;
@@ -45,16 +37,22 @@ p {color: red;
     align-items: stretch;
     margin-right: auto;
     position: relative;
-    width: 100%; 
-}
-        
-.col-1 {
-    width: 10%;
-}
-        
-.col-3 {
     width: 100%;
-    text-align: right;
+    padding: 20px;
+}
+ 
+.feature-box {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-between;
+      flex-direction: row;
+      width: 100%;
+}
+
+.feature-p {
+    color: red;
+    font-family: ar delaney;
+    font-size: 30px;
 }
 
 figcaption {
