@@ -4,11 +4,7 @@
     border-bottom: 3px solid #7d97ad;
 }
         
-* {
- box-sizing: border-box;
-}
- 
-/*  This section is dealing with the header on the page. */
+/*  This section is dealing with the header area on the page. */
 
 .header-box {
     display: flex;
@@ -48,14 +44,14 @@
     align-items: stretch;
     margin-right: auto;
     position: relative;
-    width: 100%;
-    padding: 15px;
+    width: auto;
+    padding: 20px;
 }
  
 .feature-box {
       display: flex;
       flex-wrap: wrap;
-      align-content: space-between;
+      align-content: space-around;
       flex-direction: row;
       width: 100%;
 }
@@ -98,3 +94,4 @@
 
 .li-size {
   font-size: 25px;
+}
