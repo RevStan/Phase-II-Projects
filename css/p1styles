@@ -3,19 +3,19 @@
 .border {
     border-bottom: 3px solid #7d97ad;
 }
-        
+
 /*  This section is dealing with the header area on the page. */
 
 .header-box {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: flex-start;
-    }
+}
         
 .header-box-name {
     display: flex;
-    flex-flow: column nowrap;
-    margin-right: auto;
+    flex-flow: column;
+    padding-right: 40px; 
     position: relative;
     width: 100%;
 } 
@@ -38,28 +38,42 @@
 /* This section deals with the main content of 
    the page */
 
+.img-size {
+  width: 100%;
+  height: 100%;
+}
+
 .main-pic-box {
     display: flex;
-    flex-flow: column nowrap;
-    align-items: stretch;
-    margin-right: auto;
+    flex-flow: column wrap;
+    align-items: center;
     position: relative;
-    width: auto;
     padding: 20px;
 }
  
 .feature-box {
       display: flex;
       flex-wrap: wrap;
-      align-content: space-around;
+      flex-direction: row;
+      align-content: center;
+      width: 100%;
+      margin: 10px;  
+}
+
+.feature-box2 {
+      display: flex;
+      flex-wrap: wrap;
       flex-direction: row;
       width: 100%;
+      align-content: space-evenly;
+      padding: 10px 0;
 }
 
 .feature-p {
     color: red;
     font-family: ar delaney;
     font-size: 40px;
+    padding-left: 20px;
 }
 
 .figcaption {
@@ -80,6 +94,13 @@
 
 .p-ftsz {
   font-size: 20px;
+  width: 80%;
+  padding-left: 30px;
+    
+}
+
+.indnt-item {
+  padding-left: 50px;
 }
 
 /* Following code is for the demonstration in the unordered list of various choices for a web page.
@@ -95,3 +116,14 @@
 .li-size {
   font-size: 25px;
 }
+
+@media screen and (max-width: 200px) {
+    feature-box2 {
+    flex-direction: column;
+  }
+  img-size {
+    width: 40%;
+    height: 40%;
+  } 
+}
+
